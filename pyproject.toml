@@ -1,9 +1,10 @@
 [tool.poetry]
-name = "django-rest-captcha"
-version = "0.3.0"
-description = "Lightweight version of django-simple-captcha for work with django-rest-framework"
+name = "drf-captcha"
+version = "0.1"
+description = "A - hopefully maintained - fork of django-simple-captcha to keep up with upgrading dependencies"
 readme = "README.md"
 authors = ["evgeny.zuev <zueves@gmail.com>"]
+maintainers = ["omeraksoy <omer.aksoy@lifemote.com>"]
 license = "MIT"
 packages = [
     {include = "rest_captcha"},
